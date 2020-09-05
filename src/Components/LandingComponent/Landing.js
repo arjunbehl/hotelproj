@@ -1,9 +1,13 @@
 import React from 'react';
 import './Landing.css';
-
+import Imagge from './HotelView.jpg';
 const Landing=()=>{
     return(
-        <h1>Hi this is our new proj</h1>
+        <header>
+            <div classname="HotelImage">
+            <img  src={Imagge} alt="LandingImage" />
+            </div>
+        </header>
     );
 }
 

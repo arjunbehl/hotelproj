@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://rendUser:rendUser123@rendezvouscluster.1yvar.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "jwtSecret":"mySecretToken"
+}

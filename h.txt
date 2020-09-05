@@ -1,0 +1,40 @@
+user table 
+user_id(PK)             role_id    user_password user_email_id user_gender user_phone user_nationality  create_date_time  update_time
+generate at the                                                                                                                       
+moment of creation
+
+roles
+role_id(PK)    role_name    role_description    
+1
+2
+3
+4
+4
+5
+6
+7
+8
+9 
+
+bookings
+booking_id    user_id    booking_date    no_of_persons     no_of_rooms    room_number   room_id   update_booking_time   is_active
+
+booking_history
+checkin_in  checkout_time
+
+role_has_options
+role_id         list_of_employees
+manger_role_id  t 
+f&b man			f
+rooms
+room_id 	room_type 	total_rooms 	available_rooms    
+login/logout
+
+
+// var groundRefList = (returnSubstation!=null && returnSubstation.SerializedSldJson["nodes"]!=null) ?
+            //                                                               (returnSubstation.SerializedSldJson["nodes"].Where(a => a["name"].Value<String>().Equals("Ground"))
+            //                                                             .Select(a => a["sldReference"].Value<String>()).ToList()):new List<string>();
+
+
+
+
